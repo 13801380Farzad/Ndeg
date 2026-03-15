@@ -268,6 +268,3 @@ values = [severity[d1], severity[e1], severity[j1]]
 max_value = max(values)
 stage_names = ["NONE", "MILD", "MODERATE", "SEVERE"]
 st.write("** CAA Severity:", stage_names[max_value])
-
-print("Program finished")
-input("Press Enter to exit")
