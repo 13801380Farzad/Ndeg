@@ -9,7 +9,7 @@ if pw != PASSWORD:
 
 st.title("Digital Ndeg-Staging Program")
 st.header("((Parkinson: LPC and Braak alpha synuclein))")
-a1 = st.radio.markdown("McKeith Olfactory bulb", [0, 1, 2, 3, 4])
+a1 = st.radio("McKeith Olfactory bulb", [0, 1, 2, 3, 4])
 st.header("🧠:green[Neocortex]")
 a= st.radio("McKeith Gyrus frontalis medius", [0, 1, 2, 3, 4])
 b= st.radio("McKeith Lobulus parietalis inferior", [0, 1, 2, 3, 4])
